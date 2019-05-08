@@ -53,7 +53,7 @@ $config['Database']['force_sql_mode'] = false;
 	//
 	//	Note: If you are using IIS 7+ and MySQL is on the same machine, you 
 	//	need to use 127.0.0.1 instead of localhost
-$config['MasterServer']['servername'] = 'localhost';
+$config['MasterServer']['servername'] = '127.0.0.1';
 $config['MasterServer']['port'] = 3306;
 
 	//	****** MASTER DATABASE USERNAME & PASSWORD ******
